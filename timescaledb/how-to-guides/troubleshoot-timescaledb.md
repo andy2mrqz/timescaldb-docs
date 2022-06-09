@@ -12,7 +12,7 @@ the support [slack group][slack] or post an issue on the TimescaleDB [github][].
 The update command `ALTER EXTENSION timescaledb UPDATE` must be the first command
 executed upon connection to a database. Some admin tools execute command before
 this, which can disrupt the process. It may be necessary for you to manually update
-the database with `psql`.  See our [update docs][update-db] for details.
+the database with `psql`. See our [update docs][update-db] for details.
 
 ###  Log error: could not access file "timescaledb" [](access-timescaledb)
 
