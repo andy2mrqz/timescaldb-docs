@@ -392,6 +392,13 @@ module.exports = [
               "Configure TimescaleDB when running within a Docker container",
           },
           {
+            title: "View logs and service metadata",
+            href: "logs",
+            tags: ["logs", "metadata"],
+            keywords: ["logs"],
+            excerpt: "View logs and metadata for your service to help with troubleshooting",
+          },
+          {
             title: "Telemetry",
             href: "telemetry",
             tags: ["configure", "telemetry", "timescaledb"],
